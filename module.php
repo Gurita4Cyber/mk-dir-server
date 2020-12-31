@@ -16,7 +16,7 @@ if(is_dir($dir_path))
     {
         if($files[$i] != '.' && $files[$i] != '..')
         {
-            echo "File $i -> $files[$i]<br>";
+            echo "File $i -> <b>$files[$i]</b><br>";
         }
     }
 }
